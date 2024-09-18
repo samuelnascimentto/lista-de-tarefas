@@ -2,53 +2,55 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    background: #000;
+    background: #212121;
     color: #f1f1f1;
 }
 
 
-.conteudo {
-    margin: 0;
+.container {
+    margin: 0 auto;
     width: 100%;
+    max-width: 450px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #2b2a2a;
+    background: #2b2a2a;
     padding: 55px;
     border-radius: 12px;
 }
 
 
 .topo {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-
+    color: #bdbdbd;
+    margin-bottom: 35px;
 }
 
 .topo input {
-    width: 350px;
+    width: 280px;
     padding: 15px;
-    border-radius: 12px;
-    border: 1px solid #191818;
-    outline: none;
+    border-radius: 10px;
+
     font-size: 1.2rem;
     background: #191818 ;
-    color: #f1f1f1;
+    border: none;
+    outline: none;
 }
 
 .topo button {
-    width: 45px;
-    border-radius: 12px;
-    border: 1px solid #191818;
-    outline: none;
-    font-size: 1.2rem;
-    background: #191818 ;
-    color: #f1f1f1;
+    width: 125px;
+    height: 51px;
+    border-radius: 10px;
+    margin-left: 8px;
     
+    font-size: 1.2rem;
+    background: rgb(233, 148, 22) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .topo button:hover {
-    background-color: red;
+    background-color: rgb(221, 142, 23) ;
+    
 }
 
 
@@ -58,29 +60,29 @@ body {
     margin: 0;
 }
 
+
 #lista-tarefas li {
+    height: 25px;
+    font-size: 1.5rem;
     padding: 20px;
     background: #191818;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    align-items: center;
 }
 
 .btn-acao {
-    border-radius: 20px;
-    border: 1px solid #191818;
-    width: 38px;
-    height: 38px;
-    margin-right: 8px;
-    cursor: pointer;
+    border-radius: 100%;
+    border: none;
     background: #2b2a2a;
     color: #f1f1f1;
+    margin-left: 7px;
+    padding: 9px;
+    cursor: pointer;
 
 }
 
-.btn-acao :hover {
-    background-color: #3c3a3a;
+.btn-acao:hover {
+    background-color: #1b2a2a;
 }
