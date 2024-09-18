@@ -1,3 +1,86 @@
 body {
-    background-color: brown;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background: #000;
+    color: #f1f1f1;
+}
+
+
+.conteudo {
+    margin: 0;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2b2a2a;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+
+.topo input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 1.2rem;
+    background: #191818 ;
+    color: #f1f1f1;
+}
+
+.topo button {
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 1.2rem;
+    background: #191818 ;
+    color: #f1f1f1;
+    
+}
+
+.topo button:hover {
+    background-color: red;
+}
+
+
+#lista-tarefas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista-tarefas li {
+    padding: 20px;
+    background: #191818;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-acao {
+    border-radius: 20px;
+    border: 1px solid #191818;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #f1f1f1;
+
+}
+
+.btn-acao :hover {
+    background-color: #3c3a3a;
 }
