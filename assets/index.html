@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">z
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Tarefas</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
         </div>
 
         <ul id="listaTarefas">
-            <li>Tarefa 0<span class="texto-tafera"></span>
+            <!-- <li>Tarefa 0<span class="texto-tafera"></span>
                 <div>
                     <button class="btn-acao">
                         <img src="../assets/img/ferramenta-lapis.png" alt="icone de lapis" class="img-pincel">
@@ -30,10 +30,29 @@
                         <img src="../assets/img/trash.png" alt="icone de lixeira" class="img-trash">
                     </button>
                 </div>
-            </li>
+            </li> -->
         </ul>   
     </div>
 
-    <script></script>
+
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 id="idTarefaEdicao">#1021</h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="inputTarefaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="btnAtualizarTarefa">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="main.js"></script>
 </body>
 </html>

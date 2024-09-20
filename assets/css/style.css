@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
     margin-left: 8px;
     font-size: 1.2rem;
-    background-color: #201812;
+    background-color: #281808;
     color: #656565;
     border: none;
     outline: none;
@@ -47,7 +47,7 @@ body {
 }
 
 .topo button:hover {
-    background-color: #30241b ;
+    background-color: #35200a ;
 }
 
 #listaTarefas {
@@ -79,5 +79,5 @@ body {
 }
 
 .btn-acao:hover {
-    background-color: #1b2a2a;
+    background-color: #242323;
 }
