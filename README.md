@@ -21,8 +21,8 @@
 
   <h2>Como Usar</h2>
     <ol>
-        <li>Clone o repositório: <code>git clone: https://github.com/samuelnascimentto/lista-de-tarefas-js;</code></li>
-        <li>Navegue até o diretório do projeto: <code>cd lista-de-tarefas-js;</code></li>
+        <li>Clone o repositório: <code>git clone: https://github.com/samuelnascimentto/lista-de-tarefas;</code></li>
+        <li>Navegue até o diretório do projeto: <code>cd lista-de-tarefas;</code></li>
         <li>Abra o arquivo <code>index.html</code> em um navegador web.</li>
     </ol>
 
