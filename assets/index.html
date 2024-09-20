@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <div class="container">
-
+    
+    <div class="conteudo">
         <div class="topo">
-
-            <input type="text" id="inputNovaTarefa" placeholder="Adicione uma nova tarefa">
-
+            <input type="text" 
+                id="inputNovaTarefa"
+                placeholder="Adicione uma nova tarefa"
+                >
             <button id="btnAddTarefa">
-                ADICIONAR 
+                <i class="fa fa-plus"></i>
             </button>
         </div>
 
         <ul id="listaTarefas">
-            <!-- <li>Tarefa 0<span class="texto-tafera"></span>
-                <div>
-                    <button class="btn-acao">
-                        <img src="../assets/img/ferramenta-lapis.png" alt="icone de lapis" class="img-pincel">
-                    </button>
-
-                    <button class="btn-acao">
-                        <img src="../assets/img/trash.png" alt="icone de lixeira" class="img-trash">
-                    </button>
-                </div>
-            </li> -->
-        </ul>   
-    </div>
-
+        </ul>
+    </div>   
 
     <div id="janelaEdicao">
         <button id="janelaEdicaoBtnFechar">
-            <i class="fa fa-remove fa-2x"></i>
+            <i class="fa fa-remove fa-2x" ></i>
         </button>
         <h2 id="idTarefaEdicao">#1021</h2>
         <hr>
@@ -52,7 +41,7 @@
         </form>
     </div>
     <div id="janelaEdicaoFundo"></div>
-
-    <script src="main.js"></script>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
