@@ -2,7 +2,8 @@
 
   <p>Este é um projeto simples de lista de tarefas em JavaScript, HTML e CSS. No qual, demonstra o uso de manipulação de eventos e utilização de funções para gerenciar as operações da lista de tarefas.</p>
 
-  
+  ![Captura de tela de 2024-09-20 15-37-48](https://github.com/user-attachments/assets/3860ecbd-e6a2-4f7a-97cb-73cd1de30aba)
+
 
 
   <h2>Tecnologias Utilizadas</h2>
