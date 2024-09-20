@@ -6,7 +6,6 @@ body {
     color: #f1f1f1;
 }
 
-
 .container {
     margin: 0 auto;
     width: 100%;
@@ -18,7 +17,6 @@ body {
     border-radius: 12px;
 }
 
-
 .topo {
     color: #bdbdbd;
     margin-bottom: 35px;
@@ -28,11 +26,11 @@ body {
     width: 280px;
     padding: 15px;
     border-radius: 10px;
-
     font-size: 1.2rem;
     background: #191818 ;
     border: none;
     outline: none;
+    color: #656565;
 }
 
 .topo button {
@@ -40,28 +38,26 @@ body {
     height: 51px;
     border-radius: 10px;
     margin-left: 8px;
-    
     font-size: 1.2rem;
-    background: rgb(233, 148, 22) ;
+    background-color: #201812;
+    color: #656565;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
 .topo button:hover {
-    background-color: rgb(221, 142, 23) ;
-    
+    background-color: #30241b ;
 }
 
-
-#lista-tarefas {
+#listaTarefas {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    color: #9999;
 }
 
-
-#lista-tarefas li {
+#listaTarefas li {
     height: 25px;
     font-size: 1.5rem;
     padding: 20px;
@@ -80,7 +76,6 @@ body {
     margin-left: 7px;
     padding: 9px;
     cursor: pointer;
-
 }
 
 .btn-acao:hover {
